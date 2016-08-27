@@ -1,20 +1,492 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Example</title>
+<html lang="en">
 
-      <script src="vendor.bundle.js" type="text/javascript" charset="utf-8" defer></script>
-      <script src="bundle.js" type="text/javascript" charset="utf-8" defer></script>
-    </head>
-    <body class="container-fluid">
-      <h1>Example</h1>
+<head>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.</p>
-    </body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Spectrum</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="assets/css/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!-- Retina Images Plugin -->
+    <script src="assets/js/plugins/retina/retina.min.js"></script>
+
+    <!-- Plugin CSS -->
+    <link href="assets/css/plugins/hover/hover.min.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.theme.css" rel="stylesheet">
+    <link href="assets/css/plugins/owl.carousel/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.css" rel="stylesheet">
+    <link href="assets/css/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Spectrum CSS -->
+    <!-- Note: spectrum.css is the default blue theme. To use another theme, uncomment the one you want and delete the rest, including the default spectrum.css! -->
+    <!-- <link href="assets/css/spectrum.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-aqua.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-coffee.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-coral.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-lavender.css" rel="stylesheet"> -->
+    <link href="assets/css/spectrum-olive.css" rel="stylesheet">
+    <!-- <link href="assets/css/spectrum-orange.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-peach.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-pink.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-purple.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-rust.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-seafoam.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-slate.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-turquoise.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/spectrum-yellow.css" rel="stylesheet"> -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div id="wrapper">
+
+        <nav class="navbar navbar-dark navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#page-top">
+
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#services">Skills</a>
+                        </li>
+
+
+                        <li class="page-scroll">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+
+
+                        <li class="page-scroll">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <header class="intro-img intro-dark-bg" style="background-image: url(assets/img/back.jpg)" data-stellar-background-ratio="0.5">
+            <div class="overlay"></div>
+            <div class="intro-body" data-scrollreveal="move 0">
+                <div class="container">
+                    <!-- <div class="intro-welcome">Hi, my name is</div> -->
+                    <br>
+                    <h1 class="brand-heading">Natasa<br><span class="text-primary">Peic</span></h1>
+                    <hr class="light">
+                    <div class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <h4>Building useful things on web.</h4>
+                            </div>
+                            <div class="item">
+                                <h4>Learning and contributing help me grow.</h4>
+                            </div>
+                            <div class="item">
+                                <h4>I love challenges.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-scroll" data-scrollreveal="enter bottom after .6s">
+                        <a href="#about" class="btn btn-scroll-light sink">
+                            <i class="fa fa-angle-double-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about-2">
+            <div class="container">
+                <div class="row" data-scrollreveal="enter left">
+                    <div class="col-lg-4 col-lg-offset-1">
+                        <img src="assets/img/demo-bgs/aboutme.jpg" class="img-circle img-responsive img-centered dark-faded-border" alt="">
+                    </div>
+                    <div class="col-lg-5 text-center" data-scrollreveal="enter right">
+                        <h2>About Me</h2>
+                        <hr class="primary">
+                        <p>Commited, hardoworking, humble. I let my actions speak for me. I was never afraid of challenges and/or complexity. Learning new language as well as adjusting to the life in the US helped me build skills I thought that never existed for me. </p>
+                        <p>
+                          Learning new programming languages gave me another opportunity to grow as a programmer and as a person. I found out that there is so much more to be learned for this life. Setting up goals is healthy. I have set mine. And I'm eager to achieve it.
+                        </p>
+                        <p>Connect with me or view my
+                            <span class="page-scroll"><a href="#portfolio">portfolio.</a>
+                            </span>
+                        </p>
+                        <ul class="list-inline">
+
+                            <li>
+                                <a href="https://linkedin.com/in/natasa-peic" target="_blank ">
+                                <img width="30px" height="30px" target="_blank" src="assets/img/linkedin.png" alt="" />
+                                </a>
+                            </li>
+                            <li>
+                        <a href="https://github.com/NatasaPeic" target="_blank"><img width="30px" height="30px"  src="assets/img/git.png" alt="" />
+
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:peic.natasa@gmail.com" >
+                                <img width="30px" height="30px" target="_blank" src="assets/img/gmail.png" alt="" />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://drive.google.com/file/d/0Bzn93gy2HMciOXQ3b29FYjBSTnc/view?usp=sharing" target="_blank" >
+                                <img width="30px" height="30px" src="assets/img/cv1.png" alt="" />
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 text-center" data-scrollreveal="move 0">
+                        <h2>Skills</h2>
+                        <!-- <hr class="primary"> -->
+
+                    </div>
+                    <div class="col-lg-12 text-center" data-scrollreveal="enter bottom">
+                        <ul id="services-1-carousel" class="icon-effect list-inline">
+                            <!-- ICON USAGE: The icons in this example are generated using Font Awesome unicodes. To use different icons you will need to create a custom CSS class like the ones used below (ex. icon-code, or icon-envelope-o). -->
+                            <li class="item">
+                                <img src="assets/img/html.png" alt="" />
+                                <h3>HTML</h3>
+                            </li>
+
+                            <li class="item">
+                                <img src="assets/img/css.png" alt="" />
+                                <h3>CSS</h3>
+                            </li>
+
+                            <li class="item">
+                                <img src="assets/img/js1.png" alt="" />
+                                <h3>JavaScript</h3>
+                            </li>
+
+                            <li class="item">
+                                <img src="assets/img/ruby.png" alt="" />
+                                <h3>Ruby</h3>
+                            </li>
+
+                            <li class="item">
+                                  <img src="assets/img/rails.png" alt="" />
+                                <h3>Rails</h3>
+                            </li>
+
+                            <li class="item">
+                              <img src="assets/img/git1.png" alt="" />
+                                <h3>Git</h3>
+                            </li>
+                            <li class="item">
+                                  <img src="assets/img/php.png" alt="" />
+                                <h3>PHP</h3>
+                            </li>
+                            <li class="item">
+                                <img src="assets/img/wp.png" alt="" />
+                                <h3>Wordpress</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="portfolio" class="portfolio-1 bg-lighter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-scrollreveal="move 0">
+                        <h2>Portfolio</h2>
+                        <hr class="primary">
+
+                    </div>
+                </div>
+                <div class="row" data-scrollreveal="enter bottom">
+                    <div class="isotope">
+                        <div class="col-sm-4 portfolio-item web">
+                            <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="assets/img/tic-tac.png" class="img-centered" alt="">
+                            </a>
+                        </div>
+
+                        <div class="row" data-scrollreveal="enter bottom">
+                            <div class="isotope">
+                                <div class="col-sm-4 portfolio-item web">
+                                    <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
+                                        <div class="caption">
+                                            <div class="caption-content">
+                                                <h3><i class="fa fa-search fa-2x"></i>
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <img src="assets/img/demo-portfolio/1.jpg" class="img-centered" alt="">
+                                    </a>
+                                </div>
+
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="portfolio" class="portfolio-1 bg-lighter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center" data-scrollreveal="move 0">
+                        <h2>Portfolio</h2>
+
+                    </div>
+                </div>
+                <div class="row" data-scrollreveal="enter bottom">
+                    <div class="isotope">
+                        <div class="col-sm-4 portfolio-item web">
+                            <a href="#portfolio-modal-1" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="assets/img/tic-tac.png" class="img-centered" alt="">
+                            </a>
+                        </div>
+
+
+                        <div class="col-sm-4 portfolio-item web">
+                            <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="assets/img/project2.png" class="img-centered" alt="">
+                            </a>
+                        </div>
+
+
+                        <div class="col-sm-4 portfolio-item web">
+                            <a href="#portfolio-modal-2" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <h3><i class="fa fa-search fa-2x"></i>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <img src="assets/img/demo-portfolio/7.jpg" class="img-centered" alt="">
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <footer id="contact" class="footer-2 bg-dark">
+                   <div class="container">
+                       <div class="row">
+
+                           <div class="col-md-3 col-md-offset-1">
+                               <h3 class="script">Find me!</h3>
+
+                               <br>
+                               <address>
+
+                                   <br>206 Ridge Lane #306
+                                   <br>Waltham, MA 02452
+                                   <br>
+                                   <abbr title="Phone">P:</abbr>(404) 433-6003
+                               </address>
+                           </div>
+                       </div>
+                   </div>
+               </footer>
+
+    </div>
+
+    <!-- Standard Portfolio Modal - Images and Text -->
+    <div id="portfolio-modal-1" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Tic Tac Toe</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel" class="owl-carousel owl-theme">
+
+                            <div class="item">
+                                <img src="assets/img/tic-tac-toe.png" alt="">
+                            </div>
+                            <!-- <div class="item">
+                                <img src="assets/img/demo-portfolio/11.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/demo-portfolio/12.jpg" alt="">
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, et, ea, accusantium reprehenderit aliquam numquam fuga natus fugiat odit distinctio illo at unde.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, iusto molestiae possimus sint dignissimos! Laudantium, dolore, vel, sint, labore optio perferendis illo dolorum similique soluta eum cupiditate assumenda consequatur maiores.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Live demo:</strong><a href="https://natasapeic.github.io/Project1/" target="_blank"> Tic Tac Toe</a></li>
+                            <li>
+                                <strong>Code:</strong><a href="https://github.com/NatasaPeic/Project1" target="_blank"> Github</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Standard Portfolio Modal - Images and Text -->
+    <div id="portfolio-modal-2" class="portfolio-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row first">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Job Search Helper</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <div id="project-details-carousel1" >
+
+                            <div class="item">
+                                <img src="assets/img/project2.png" alt="">
+                            </div>
+                            <!-- <div class="item">
+                                <img src="assets/img/demo-portfolio/11.jpg" alt="">
+                            </div>
+                            <div class="item">
+                                <img src="assets/img/demo-portfolio/12.jpg" alt="">
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Project Description:</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, et, ea, accusantium reprehenderit aliquam numquam fuga natus fugiat odit distinctio illo at unde.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, iusto molestiae possimus sint dignissimos! Laudantium, dolore, vel, sint, labore optio perferendis illo dolorum similique soluta eum cupiditate assumenda consequatur maiores.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <h3>Project Details:</h3>
+                        <ul class="list-unstyled project-details">
+                            <li>
+                                <strong>Live demo:</strong><a href="https://natasapeic.github.io/job-search-app-front-end/#" target="_blank"> Job Search Helper</a></li>
+                                <li>
+                                    <strong>Front end:</strong><a href="https://github.com/NatasaPeic/job-search-app-front-end" target="_blank"> Github</a></li>
+                            <li>
+                                <strong>Back end:</strong><a href="https://github.com/NatasaPeic/job-search-app-back-end" target="_blank"> Github</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Core JavaScript Files -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <script src="assets/js/bootstrap/bootstrap.min.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
+
+    <!-- Plugin JavaScript Files -->
+    <script src="assets/js/plugins/jquery.easing/jquery.easing.1.3.js"></script>
+    <script src="assets/js/plugins/jquery.fitvids/jquery.fitvids.js"></script>
+    <script src="assets/js/plugins/jquery.fs.wallpaper/jquery.fs.wallpaper.min.js"></script>
+    <script src="assets/js/plugins/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugins/jquery.tubular/jquery.tubular.1.0.js"></script>
+    <script src="assets/js/plugins/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/js/plugins/scrollReveal/scrollReveal.js"></script>
+    <script src="assets/js/plugins/stellar/stellar.js"></script>
+    <script src="assets/js/plugins/SmoothScroll/SmoothScroll.js"></script>
+    <script src="assets/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+    <script src="assets/js/contact_me.js"></script>
+    <script src="assets/js/plugins/isotope/isotope.pkgd.min.js"></script>
+
+    <!-- Spectrum JavaScript Files -->
+    <script src="assets/js/spectrum.nav.js"></script>
+    <script src="assets/js/spectrum.js"></script>
+
+</body>
+
 </html>
