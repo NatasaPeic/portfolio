@@ -31,7 +31,7 @@ aside {
 }
 @media (min-width: 767px) {
   section {
-    padding: 100px 0;
+    padding: 40px;
   }
 }
 .well {
@@ -55,7 +55,7 @@ aside {
   border: solid 15px rgba(244, 245, 247, 0.5);
 }
 .dark-faded-border {
-  border: solid 15px rgba(62, 68, 77, 0.5);
+      border: solid 10px #b5a8a9;
 }
 .img-centered {
   margin: 0 auto;
@@ -157,7 +157,7 @@ hr.dark {
   border-bottom: none;
 }
 hr.primary {
-  border-top: 6px solid #f17c71;
+    border-top: 6px solid #c31d21;
 }
 hr.light {
   border-top: 6px solid #f4f5f7;
